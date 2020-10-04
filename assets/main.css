@@ -1,0 +1,267 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1200px;
+  height: 600px;
+  background: #e3dfda;
+  margin: 30px auto;
+  position: relative;
+  z-index: -10;
+}
+
+/* Your CSS goes here */
+.mirror{
+	position: relative;
+	left: 400px;
+	top: -200px;
+	width:500px;
+	height: 500px;
+	background: #a3774d;
+	border-radius: 250px;
+	z-index: -5;
+	box-shadow: 10px 5px 10px gray;
+}
+
+.mirrorinner{
+	position: relative;
+	left: 25px;
+	top: 25px;
+	width:450px;
+	height: 450px;
+	background: #f7f6f5;
+	border-radius: 250px;
+	z-index: -5;
+}
+
+.vase{
+	position: relative;
+	width: 120px;
+	height:180px;
+	background-color: white;
+	top: -80px;
+	left: 520px;
+}
+
+.vaseinner{
+	position: relative;
+	width: 100px;
+	height:170px;
+	background-color: #99b58b;
+	top: 0px;
+	left: 10px;
+	z-index:1;
+}
+
+.candle1{
+	position: relative;
+	width: 30px;
+	height:100px;
+	background-color: white;
+	top: -200px;
+	left: 355px;
+}
+
+.base1{
+	position: relative;
+	width: 46px;
+	height:30px;
+	background-color: #ab9055;
+	top: 90px;
+	left: -8px;
+}
+
+.candle2{
+	position: relative;
+	width: 30px;
+	height:130px;
+	background-color: white;
+	top: -400px;
+	left: 750px;
+}
+
+.base2{
+	position: relative;
+	width: 46px;
+	height:30px;
+	background-color: #ab9055;
+	top: 110px;
+	left: -8px;
+}
+
+.rod{
+	position: relative;
+	width: 10px;
+	height:80px;
+	background-color: #c7bda7;
+	top: 110px;
+	left: 10px;
+}
+
+.flower1{
+	position: relative;
+	left: 500px;
+	top: -700px;
+	width:50px;
+	height: 50px;
+	background: #db9986;
+	border-radius: 25px;
+}
+
+.flower2{
+	position: relative;
+	left: 550px;
+	top: -720px;
+	width:50px;
+	height: 50px;
+	background: #c97f71;
+	border-radius: 25px;
+}
+
+.flower3{
+	position: relative;
+	left: 600px;
+	top: -840px;
+	width:50px;
+	height: 50px;
+	background: #e6ae9e;
+	border-radius: 25px;
+}
+
+.flower4{
+	position: relative;
+	left: 630px;
+	top: -830px;
+	width:50px;
+	height: 50px;
+	background: #c97f71;
+	border-radius: 25px;
+}
+
+.flower5{
+	position: relative;
+	left: 660px;
+	top: -850px;
+	width:50px;
+	height: 50px;
+	background: #f5b69f;
+	border-radius: 25px;
+}
+
+.flower6{
+	position: relative;
+	left: 730px;
+	top: -920px;
+	width:50px;
+	height: 50px;
+	background: #c97f71;
+	border-radius: 25px;
+}
+
+.flower7{
+	position: relative;
+	left: 450px;
+	top: -950px;
+	width:50px;
+	height: 50px;
+	background: #c97f71;
+	border-radius: 25px;
+}
+
+.leaf1{
+	position: relative;
+	left: 530px;
+	top: -930px;
+	width:120px;
+	height: 120px;
+	background: #71965f;
+	border-top-left-radius: 80px;
+	border-bottom-right-radius: 80px;
+	z-index: -0;
+	opacity: 80%;
+}
+
+.leaf2{
+	position: relative;
+	left: 520px;
+	top: -1180px;
+	width:140px;
+	height: 150px;
+	background: #9dba79;
+	border-bottom-right-radius:100px;
+	border-top-left-radius: 100px;
+	opacity: 50%;
+	transform: rotate(-20deg);
+	z-index: -1
+}
+
+.leaf3{
+	position: relative;
+	left: 390px;
+	top: -1350px;
+	width:250px;
+	height: 250px;
+	background: #9dba79;
+	border-bottom-left-radius:500px;
+	border-top-right-radius: 500px;
+	opacity: 50%;
+	z-index: -1;
+	transform: rotate(10deg);
+}
+
+.leaf4{
+	position: relative;
+	left: 550px;
+	top: -1560px;
+	width:200px;
+	height: 200px;
+	background: #71965f;
+	border-top-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	opacity: 50%;
+	z-index: -1;
+}
+
+.leaf5{
+	position: relative;
+	left: 400px;
+	top: -1690px;
+	width:150px;
+	height: 150px;
+	background: #71965f;
+	border-bottom-left-radius:500px;
+	border-top-right-radius: 500px;
+	opacity: 50%;
+	z-index: -1;
+	transform: rotate(-20deg);
+}
+
+.leaf6{
+	position: relative;
+	left: 450px;
+	top: -1900px;
+	width:150px;
+	height: 150px;
+	background: #71965f;
+	border-bottom-left-radius:500px;
+	border-top-right-radius: 500px;
+	border-bottom-right-radius: 100px;
+	opacity: 50%;
+	z-index: 0;
+	transform: rotate(20deg);
+}
+.top{
+	position: relative;
+	top: -2310px;
+	width: 1200px;
+	height: 30px;
+	background: black;
+}
