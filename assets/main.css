@@ -1,0 +1,267 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 90vw;
+  height: 85vh;
+  background: #e3dfda;
+  margin: 2.5vw auto;
+  position: relative;
+  z-index: -10;
+}
+
+/* Your CSS goes here */
+.mirror{
+	position: relative;
+	left: 30vw;
+	top: -15vh;
+	width:33vw;
+	height: 65vh;
+	background: #a3774d;
+	border-radius: 100vh;
+	z-index: -5;
+	box-shadow: 2vh 1vw 1vw gray;
+}
+
+.mirrorinner{
+	position: relative;
+	left: 1.5vw;
+	top: 2.5vh;
+	width:30vw;
+	height: 60vh;
+	background: #f7f6f5;
+	border-radius: 100vh;
+	z-index: -5;
+}
+
+.vase{
+	position: relative;
+	width: 8.5vw;
+	height:27vh;
+	background-color: white;
+	top: -7vh;
+	left: 36vw;
+}
+
+.vaseinner{
+	position: relative;
+	width: 7vw;
+	height:25.5vh;
+	background-color: #99b58b;
+	top: 0vh;
+	left: 0.8vw;
+	z-index:1;
+}
+
+.candle1{
+	position: relative;
+	width: 2vw;
+	height:14vh;
+	background-color: white;
+	top: -23.7vh;
+	left: 23vw;
+}
+
+.base1{
+	position: relative;
+	width: 3vw;
+	height:3.5vh;
+	background-color: #ab9055;
+	top: 13.2vh;
+	left: -0.5vw;
+}
+
+.candle2{
+	position: relative;
+	width: 2vw;
+	height:16vh;
+	background-color: white;
+	top: -51.5vh;
+	left: 55vw;
+}
+
+.base2{
+	position: relative;
+	width: 3vw;
+	height:3.5vh;
+	background-color: #ab9055;
+	top: 15.5vh;
+	left: -0.5vw;
+}
+
+.rod{
+	position: relative;
+	width: 0.8vw;
+	height:11.5vh;
+	background-color: #c7bda7;
+	top: 15.5vh;
+	left: 0.6vw;
+}
+
+.flower1{
+	position: relative;
+	left: 34vw;
+	top: -94vh;
+	width:3.5vw;
+	height: 7vh;
+	background: #db9986;
+	border-radius: 7vh;
+}
+
+.flower2{
+	position: relative;
+	left: 37vw;
+	top: -96vh;
+	width:3.5vw;
+	height: 7vh;
+	background: #c97f71;
+	border-radius: 7vh;
+}
+
+.flower3{
+	position: relative;
+	left: 41vw;
+	top: -113vh;
+	width:3.5vw;
+	height: 7vh;
+	background: #e6ae9e;
+	border-radius: 7vh;
+}
+
+.flower4{
+	position: relative;
+	left: 43vw;
+	top: -112vh;
+	width:3.5vw;
+	height: 7vh;
+	background: #c97f71;
+	border-radius: 7vh;
+}
+
+.flower5{
+	position: relative;
+	left: 45vw;
+	top: -113vh;
+	width:3.5vw;
+	height: 7vh;
+	background: #f5b69f;
+	border-radius: 7vh;
+}
+
+.flower6{
+	position: relative;
+	left: 50vw;
+	top: -120vh;
+	width:3.5vw;
+	height: 7vh;
+	background: #c97f71;
+	border-radius: 7vh;
+}
+
+.flower7{
+	position: relative;
+	left: 30vw;
+	top: -128vh;
+	width:3.5vw;
+	height: 7vh;
+	background: #c97f71;
+	border-radius: 7vh;
+}
+
+.leaf1{
+	position: relative;
+	left: 36.8vw;
+	top: -128vh;
+	width:15vw;
+	height: 15vh;
+	background: #71965f;
+	border-top-left-radius: 17vh;
+	border-bottom-right-radius: 17vh;
+	z-index: -0;
+	opacity: 80%;
+}
+
+.leaf2{
+	position: relative;
+	left: 37vw;
+	top: -155vh;
+	width:10vw;
+	height: 20vh;
+	background: #9dba79;
+	border-bottom-right-radius:15vh;
+	border-top-left-radius: 15vh;
+	opacity: 50%;
+	transform: rotate(-20deg);
+	z-index: -1
+}
+
+.leaf3{
+	position: relative;
+	left: 26vw;
+	top: -181vh;
+	width:15vw;
+	height: 30vh;
+	background: #9dba79;
+	border-bottom-left-radius:40vh;
+	border-top-right-radius: 40vh;
+	opacity: 50%;
+	z-index: -1;
+	transform: rotate(20deg);
+}
+
+.leaf4{
+	position: relative;
+	left: 40vw;
+	top: -208vh;
+	width:15vw;
+	height: 30vh;
+	background: #71965f;
+	border-top-left-radius: 25vh;
+	border-bottom-right-radius: 25vh;
+	opacity: 50%;
+	z-index: -1;
+}
+
+.leaf5{
+	position: relative;
+	left: 28vw;
+	top: -228.8vh;
+	width:12vw;
+	height:24vh;
+	background: #71965f;
+	border-bottom-left-radius:30vh;
+	border-top-right-radius: 30vh;
+	opacity: 50%;
+	z-index: -1;
+	transform: rotate(-20deg);
+}
+
+.leaf6{
+	position: relative;
+	left: 32vw;
+	top: -258vh;
+	width:10vw;
+	height: 25vh;
+	background: #71965f;
+	border-bottom-left-radius:20vh;
+	border-top-right-radius: 20vh;
+	border-bottom-right-radius: 4vh;
+	opacity: 50%;
+	z-index: 0;
+	transform: rotate(10deg);
+}
+.top{
+	position: relative;
+	top: -320vh;
+	width: 100vw;
+	height: 5vh;
+	background: black;	
+}
